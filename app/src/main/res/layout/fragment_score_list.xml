@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:paddingLeft="@dimen/activity_horizontal_margin"
+             android:paddingRight="@dimen/activity_horizontal_margin"
+             android:paddingStart="@dimen/score_list_horizontal_margin"
+             android:paddingEnd="@dimen/score_list_horizontal_margin"
+
+             tools:context=".MainActivity$PlaceholderFragment">
+
+    <ListView
+        android:id="@+id/scores_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="15sp"
+        tools:listitem="@layout/scores_list_item"
+        />
+
+    <TextView
+        android:id="@+id/widget_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/empty_scores_list"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:visibility="invisible"/>
+</FrameLayout>

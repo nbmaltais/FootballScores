@@ -1,0 +1,26 @@
+{
+	"documentation":"Soccer seasons",
+	"fields": [
+
+		{
+			"name":"caption",
+			"type":"String",
+			"nullable": false,
+		},
+		{
+			"name":"league",
+			"type":"String",
+			"nullable": false,
+		},
+		{
+			"name":"lastUpdated",
+			"type":"String",
+			"nullable": false,
+		},
+		{
+			"name":"year",
+			"type":"String",
+			"nullable": false,
+		},
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"documentation":"Team in soccer season",
+	"fields": [
+
+		{
+			"name": "season_id",
+			"type": "Long",
+			"nullable": false,
+			"foreignKey": {
+				"table": "soccerseason",
+				"onDelete": "RESTRICT"
+			}
+		},
+		
+		
+		{
+			"name": "date",
+			"type": "String",
+			"nullable": false,
+		},
+		{
+			"name": "time",
+			"type": "String",
+			"nullable": false,
+		},
+		{
+			"name": "status",
+			"type": "String",
+			"nullable": false,
+		},
+		{
+			"name": "matchDay",
+			"type": "Integer",
+			"nullable": false
+		},	
+		{
+			"name": "goalsHomeTeam",
+			"type": "Integer",
+			"nullable": false,
+		},
+		{
+			"name": "goalsAwayTeam",
+			"type": "Integer",
+			"nullable": false,
+		},
+		{
+			"name": "homeTeamName",
+			"type": "String",
+			"nullable": false,
+		},
+		{
+			"name": "awayTeamName",
+			"type": "String",
+			"nullable": false,
+		},
+		{
+			"name": "homeTeamCrestUrl",
+			"type": "String",
+			"nullable": true,
+		},
+		{
+			"name": "awayTeamCrestUrl",
+			"type": "String",
+			"nullable": true,
+		},
+
+
+	],
+
+}

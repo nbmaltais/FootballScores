@@ -1,0 +1,30 @@
+{
+	"documentation":"Team in soccer season",
+	"fields": [
+
+		
+		{
+			"name": "name",
+			"type": "String",
+			"nullable": false,
+		},
+		{
+			"name": "code",
+			"type": "String",
+			"nullable": true,
+		},
+		{
+			"name": "shortName",
+			"type": "String",
+			"nullable": true
+		},	
+		{
+			"name": "creastUrl",
+			"type": "String",
+			"nullable": false,
+		},
+
+
+	],
+
+}

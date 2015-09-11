@@ -1,0 +1,14 @@
+{
+	"syntaxVersion": 3,
+    "projectPackageId": "barqsoft.footballscores",
+    "authority": "barqsoft.footballscores.provider",
+    "providerJavaPackage": "barqsoft.footballscores.provider",
+    "providerClassName": "FootballScoresProvider",
+    "sqliteOpenHelperClassName": "FootballScoresDBHelper",
+    "sqliteOpenHelperCallbacksClassName": "FootballScoresDBHelperCallbacks",
+    "databaseFileName": "FootballScores.db",
+    "databaseVersion": 1,
+    "enableForeignKeys": true,
+    "useAnnotations": true
+
+}
